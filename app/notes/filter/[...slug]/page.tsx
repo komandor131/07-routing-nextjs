@@ -8,7 +8,7 @@ import { notFound } from "next/navigation";
 import { fetchNotes } from "@/lib/api";
 import { NOTE_TAGS } from "@/types/note";
 import type { NoteTag } from "@/types/note";
-import NotesClient from "../../Notes.client";
+import NotesClient from "./Notes.client";
 
 const NOTES_PER_PAGE = 12;
 
